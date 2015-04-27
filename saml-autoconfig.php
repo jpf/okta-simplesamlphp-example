@@ -27,7 +27,6 @@
  *   This should also be stored in your production datastore.
  */
 $metadata_url_for = array(
-   'okta' => 'https://jfranusic.oktapreview.com/app/exk3qe9cdrXqLsASm0h7/sso/saml/metadata',
     /* WARNING WARNING WARNING
      *   You MUST remove the testing IdP (idp.oktadev.com) from a production system,
      *   as the testing IdP will allow ANYBODY to log in as ANY USER!
