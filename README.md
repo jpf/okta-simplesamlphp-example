@@ -28,7 +28,7 @@ Use "SimpleSAMLphp Example" instead of "Example SAML application".
 
 When entering the URL
 
-``` shell
+```
 http://example.com/saml/sso/example-okta-com
 ```
 
@@ -36,20 +36,20 @@ instead, use the following:
 
 For "Single sign on URL" use:
 
-``` shell
+```
 http://PATH_TO_INSTALL_DIRECTORY/simplesamlphp/www/module.php/saml/sp/saml2-acs.php/example
 ```
 
 For "Audience URI (SP Entity ID)" use:
 
-``` shell
+```
 http://PATH_TO_INSTALL_DIRECTORY/simplesamlphp/www/module.php/saml/sp/metadata.php/example
 ```
 
 For "Default RelayState" use:
 
-``` shell
-http://PATH_TO_INSTALL_DIRECTORY/okta-simplesamlphp-guidance/?saml_sso=example
+```
+http://PATH_TO_INSTALL_DIRECTORY/okta-simplesamlphp-example/?saml_sso=example
 ```
 
 **Note:**
@@ -65,7 +65,7 @@ This will depend on how your webserver is set up.
     SimpleSAMLphp, this is the command you will use to do this:
     
     ```shell 
-    $ cp okta-simplesamlphp-guidance/saml-autoconfig.php simplesamlphp/ 
+    $ cp okta-simplesamlphp-example/saml-autoconfig.php simplesamlphp/ 
     ```
 3.  In the 'simplesamlphp' directory, 
     edit the \`config/authsources.php\` 
@@ -87,7 +87,7 @@ This will depend on how your webserver is set up.
 
 # Testing
 
-1.  Load the URL for \`okta-simplesamlphp-guidance/index.php\` in your web browser. 
+1.  Load the URL for \`okta-simplesamlphp-example/index.php\` in your web browser. 
     Try to log in to the 'example' IdP.
 2.  In Okta, try clicking on the "SimpleSAMLphp Example" chiclet.
 

@@ -58,7 +58,7 @@
   For "Default RelayState" use:
   #+BEGIN_HTML
   ```
-  http://PATH_TO_INSTALL_DIRECTORY/okta-simplesamlphp-guidance/?saml_sso=example
+  http://PATH_TO_INSTALL_DIRECTORY/okta-simplesamlphp-example/?saml_sso=example
   ```
   #+END_HTML
 
@@ -74,7 +74,7 @@
      SimpleSAMLphp, this is the command you will use to do this:
      #+BEGIN_HTML
      ```shell 
-     $ cp okta-simplesamlphp-guidance/saml-autoconfig.php simplesamlphp/ 
+     $ cp okta-simplesamlphp-example/saml-autoconfig.php simplesamlphp/ 
      ```
      #+END_HTML
   3. In the 'simplesamlphp' directory, 
@@ -97,7 +97,7 @@
      ```
      #+END_HTML
 * Testing
-  1. Load the URL for `okta-simplesamlphp-guidance/index.php` in your web browser. 
+  1. Load the URL for `okta-simplesamlphp-example/index.php` in your web browser. 
      Try to log in to the 'example' IdP.
   2. In Okta, try clicking on the "SimpleSAMLphp Example" chiclet.
 * Contact
