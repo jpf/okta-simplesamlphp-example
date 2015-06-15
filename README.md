@@ -17,7 +17,7 @@ will need to set up an Okta "[chiclet](https://support.okta.com/articles/Knowled
 user to sign in to your to your application with SAML and SimpleSAMLphp.
 
 To set up Okta to connect to your application, follow the
-[setting up a SAML application in Okta](http://developer.okta.com/docs/examples/setting_up_a_saml_application_in_okta.html) guide. 
+[setting up a SAML application in Okta](http://developer.okta.com/docs/guides/setting_up_a_saml_application_in_okta.html) guide. 
 As noted in the instructions, there are two steps to change:
 
 **In step #6**: 
